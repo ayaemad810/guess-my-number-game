@@ -9,12 +9,8 @@
 let secrtNum = Math.trunc( Math.random() * 20 ) + 1;
   let scoreEle = 20;
   let highScore = 0;
-   function print (){
-    console.log('add new branch ')
-   }
 const displayMessage = (message)=>{
  document.querySelector('.message').textContent= message;
- print();
 }
 
 document.querySelector('.check').addEventListener('click', function(){
